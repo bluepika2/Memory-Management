@@ -37,6 +37,7 @@ public:
     ChatBot(ChatBot &&source);
     // move assignment operator
     ChatBot &operator=(ChatBot &&source);
+    ChatLogic *GetChatLogicHandle() { return _chatLogic; }
     ////
     //// EOF STUDENT CODE
 
